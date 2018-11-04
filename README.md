@@ -2,7 +2,9 @@
 ## A Smart and Fast Dictionary App  
 This is part of our Data Structure course project (CSE225-NSU).
 Our main goal is to make an app that will read vocabulary from text files and sort them into an efficient data structure (Graph) in the memory.
----
+
+![QuickLexicon](screenshot.png)
+
 
 # Description  
 The first page (“MainMenu”) of the program will prompt different options, the most important of which will be search word. The user will be able to search a word directly or make a custom search as “Word that start with a n t…”. During the typing, the user will also be showed some auto suggestions of the word he might be thinking.
@@ -25,8 +27,24 @@ The main menu will also have a word of the day for quick learning an interesting
 -User can search “Words that start with Ant”.
 7.	Login for Admin and general use
 
+# Build
+
+```
+gcc -0 lexicon main.cpp tree.cpp
+```
+Now you can run the program with 0 or 1 argument
+
+Running the program with zero arguments open the full program with more funtionality.
+
+Adding a word as a parameter only gives the meaning of that parameter.
+For example,
+```
+lexicon hello
+```
+
 # Authors  
-Sabbir Mollah  
-Nazmul Hossain Nihal  
-Naimur Abanto  
+
+* **Sabbir Mollah** - *UI, Structure and design* - [SabbirMollah](https://github.com/sabbirmollah)
+* **Nazmul Hossain Nihal** - *Data Structure and program flow* - [nazmulhossainnihal](https://github.com/nazmulhossainnihal)
+
 ---
