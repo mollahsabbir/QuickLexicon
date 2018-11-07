@@ -30,7 +30,7 @@ The main menu will also have a word of the day for quick learning an interesting
 # Build
 
 ```
-gcc -0 lexicon main.cpp tree.cpp
+gc++ -o lexicon main.cpp tree.cpp
 ```
 Now you can run the program with 0 or 1 argument
 
